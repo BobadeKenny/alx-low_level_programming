@@ -8,12 +8,12 @@
 
 int main(void)
 {
-int a;
+char a;
 
-for (a = 0; a <= 16; a++)
+for (a = 'z'; a >= 'a'; a++)
 {
-putchar('%X', a);
-putchar('\n');
+putchar(a);
 }
+putchar('\n');
 return (0);
 }

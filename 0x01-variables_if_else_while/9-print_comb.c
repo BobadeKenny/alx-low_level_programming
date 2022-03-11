@@ -8,20 +8,20 @@
 
 int main(void)
 {
-    int a;
-    for (a = 0; a<=9; a++)
-    {
-        if (a == 9)
-        {
-            putchar(a);
-        }
-        else 
-        {
-            putchar(a);
-            putchar(',');
-            putchar(' ');
-        }
-        
-    }
-        return (0);
+int a;
+
+for (a = 0; a <= 9; a++)
+{
+if (a == 9)
+{
+putchar(a);
+}
+else 
+{
+putchar(a);
+putchar(',');
+putchar(' ');
+}    
+}
+return (0);
 }
