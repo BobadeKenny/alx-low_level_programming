@@ -18,8 +18,8 @@ int main(void)
         else 
         {
             putchar(a);
-            putchar(",");
-            putchar(" ");
+            putchar(',');
+            putchar(' ');
         }
         
     }
