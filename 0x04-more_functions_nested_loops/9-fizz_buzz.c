@@ -1,15 +1,16 @@
 #include <stdio.h>
-
 /**
- * main - Entry point
- * Return:0
+ * main - check the code for Holberton School students.
+ *
+ * Return: void.
  */
 
 int main(void)
 {
-	int i;
 
-	for (i = 0; i <= 100;  i++)
+	int i = 1;
+
+	while (i <= 100)
 	{
 		if (i % 3 == 0 && i % 5 == 0)
 		{
@@ -28,11 +29,13 @@ int main(void)
 			printf("%i", i);
 		}
 
-		if (i < 100)
+		if (i != 100)
 		{
 			putchar(' ');
 		}
+
+		i++;
 	}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }

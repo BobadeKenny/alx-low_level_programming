@@ -1,22 +1,28 @@
 #include "main.h"
 
 /**
- * print_diagonal - Entry point
- * @size : num to print
- * Return:0 or 1
+ * print_square - check for a digit
+ * @n : number of _ to be printed
+ * Return:void
  */
-void print_diagonal(int size)
-{
-	int i;
-	int j;
 
-	for (i = 0; i < size; i++)
+void print_square(int n)
+{
+
+	int i = 0, ii;
+
+	while (i < n && n > 0)
 	{
-		for (j = 0; j < size; j++)
+		ii = 0;
+		while (ii < n)
 		{
-		_putchar('#');
+			_putchar('#');
+			ii++;
 		}
-	_putchar('\n');
+
+		_putchar('\n');
+		i++;
 	}
-	_putchar('\n');
+	if (i == 0)
+		_putchar('\n');
 }
