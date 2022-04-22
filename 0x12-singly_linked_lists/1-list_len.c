@@ -1,13 +1,11 @@
-#include <stdio.h>
 #include "lists.h"
 
 /**
  * list_len - prints num of all elements in list
- * @h: list
+ * @h: linkedlist
  *
  * Return: num of elements
  */
-
 size_t list_len(const list_t *h)
 {
 	const list_t *node = h;
@@ -15,7 +13,7 @@ size_t list_len(const list_t *h)
 
 	while (node != NULL)
 	{
-		i ++;
+		i++;
 		node = node->next;
 	}
 	return (i);
