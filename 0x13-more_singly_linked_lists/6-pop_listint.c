@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * pop_listint2 - frees a list
+ * pop_listint - pops head of  a list
  * @head: head
  */
 int pop_listint(listint_t **head)
